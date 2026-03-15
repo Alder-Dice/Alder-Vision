@@ -1,8 +1,8 @@
 # Alder-Vision
 
-> Recipe archive for [Joe-No](https://github.com/Alder-Dice/Joe-No) — a local terminal-driven living art engine.
+> Standalone HTML audio/MIDI visualisers.
 
-Each file is a standalone HTML export of a generative visual recipe. Recipes are self-contained: open any HTML directly in a browser (Chromium recommended), grant microphone access, and the visuals run.
+Each file is a self-contained generative visual. Open any HTML directly in a browser (Chromium recommended), grant microphone access, and it runs.
 
 ## Structure
 
@@ -27,9 +27,9 @@ grep -l "@tags.*particles" ~/Projects/Alder-Vision/*.html
 grep -l "@engine three" ~/Projects/Alder-Vision/*.html
 ```
 
-## Importing a Recipe into Joe-No
+## Loading a Visualiser
 
-Use the `/remix` skill in the Joe-No admin Claude instance — it scans this folder, lists recipes, and writes the selected source to `active.js`.
+Use the `/remix` skill in the admin Claude instance — it scans this folder, lists visualisers, and writes the selected source to `active.js`.
 
 ## Requirements
 
